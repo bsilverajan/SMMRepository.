@@ -165,6 +165,12 @@ ul li {
 	margin-top: 60px;
 }
 
+.codelink {
+	color: #009FCC;
+	font-weight: bold;
+	font-size: 13px;
+}
+
 
 /* ------------------------------------------------------------------------------
 	Header
