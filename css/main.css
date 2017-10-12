@@ -101,16 +101,15 @@ h5 {
 	margin-bottom: 25px;
 }
 
-.btn-large.cn {
-	background-color: #20B2AA;
-	padding: 15px 40px;
-	margin-right: 8px;
-	margin-bottom: 70px;
-}
-
 .btn-large.tr {
 	border: 2px solid #00CED1;
 	background-color: transparent; 
+	margin-right: 8px;
+	color: #00CED1;
+}
+
+.btn-large.view {
+	background-color: #00CED1; 
 	margin-right: 8px;
 	color: #00CED1;
 }
@@ -254,7 +253,7 @@ ul li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 580px;
+	min-height: 590px;
 }
 
 .banners {
