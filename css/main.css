@@ -1,3 +1,4 @@
+
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
@@ -88,7 +89,7 @@ h5 {
     	border: 2px solid #AAAAAA;
 	padding: 15px 40px;
 	margin-right: 8px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	background-color: transparent; 	
 }
 
@@ -97,7 +98,14 @@ h5 {
 	background-color: #3bc492;
 	padding: 15px 40px;
 	margin-right: 8px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
+}
+
+.btn-large.cn {
+	background-color: #20B2AA;
+	padding: 15px 40px;
+	margin-right: 8px;
+	margin-bottom: 70px;
 }
 
 .btn-large.tr {
@@ -107,10 +115,13 @@ h5 {
 	color: #00CED1;
 }
 
+
 .btn-large.view {
+	
 	background-color: #00CED1; 
 	margin-right: 8px;
 	color: #00CED1;
+	font-size: 12px;
 }
 
 /* ------------------------------------------------------------------------------
@@ -128,6 +139,7 @@ a:hover, a:focus {
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
+
 
 body {
 	font-family: "Open Sans", Arial, sans-serif;
@@ -164,11 +176,11 @@ ul li {
 }
 
 .codelink {
+
 	color: #009FCC;
 	font-weight: bold;
 	font-size: 13px;
 }
-
 
 /* ------------------------------------------------------------------------------
 	Header
@@ -252,7 +264,7 @@ ul li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 580px;
+	min-height: 590px;
 }
 
 .banners {
@@ -435,6 +447,7 @@ ul li {
 .contents {
 	margin-left: 35%;
 	margin-bottom: 10px;
+
 	border: 1px solid #fff;
 	width: 54px;
 	height: 54px;
@@ -461,7 +474,7 @@ ul li {
 	font-size: 35px;
 	margin-top:100px;
 	margin-bottom: 60px;
-	color: #939393;
+	color: #787878;
 }
 
 .conForm h4 {
@@ -488,7 +501,7 @@ ul li {
 	color:gray;
 	font-size: 18px;
 	margin-top: 24px;
-    font-weight: normal;
+    	font-weight: normal;
 	text-align: left;
 	margin-bottom: 36px;
 }
@@ -637,13 +650,13 @@ a:hover,a:focus{
 }
 
 #accordion .panel-headings{
- 	padding-bottom: 0;
+ 	padding: 0;
  	border-radius: 5;
  	border-left: 3px solid #009FCC;
  	background-color: #fff;
  	border-radius: 5;
  	margin-bottom: 10px;
- 	height: 50%;
+ 	height: 50px;
  	width: 100%;
 	
  -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
@@ -658,7 +671,7 @@ a:hover,a:focus{
  	background-color: #fff;
  	border-radius: 5;
  	margin-bottom: 10px;
- 	height:50%;
+ 	height:50px;
 	
  -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
        -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
@@ -719,8 +732,7 @@ a:hover,a:focus{
 
 #accordion .panel-titles a{
  	display: block;
- 	padding: 14px;
- 	padding-top: 20px;
+ 	padding: 16px;
  	font-size: 15px;
  	font-weight: bold;
  	text-align: left;
@@ -729,10 +741,10 @@ a:hover,a:focus{
  	transition: all 0.5s ease 0s;
 }
 
+
 #accordion .panel-titled {
  	display: block;
- 	padding: 14px;
- 	padding-top: 22px;
+ 	padding: 16px;
  	font-size: 15px;
  	font-weight: bold;
  	text-align: left;
@@ -740,6 +752,7 @@ a:hover,a:focus{
  	color:gray;
  	transition: all 0.5s ease 0s;
 }
+
 
 #accordion .panel-titlesb a{
  	display: block;
@@ -752,8 +765,9 @@ a:hover,a:focus{
  	transition: all 0.5s ease 0s;
 }
 
+
 #accordion .panel-titlel a{
- 	display: block;
+ 	display: block; 
 	padding: 26px;
  	font-size: 16px;
  	font-weight: bold;
@@ -776,7 +790,7 @@ a:hover,a:focus{
 }
 
 #accordion .panel-bodys{
- 	font-size: 12px;
+ 	font-size: 13px;
  	background: #fff;
  	padding: 12px 15px;
  	line-height: 25px;
