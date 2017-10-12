@@ -721,7 +721,18 @@ a:hover,a:focus{
 #accordion .panel-titles a{
  	display: block;
  	padding: 16px;
- 	font-size: 14px;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	text-align: left;
+ 	background-color: #fff;
+ 	color:gray;
+ 	transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-titled {
+ 	display: block;
+ 	padding: 16px;
+ 	font-size: 15px;
  	font-weight: bold;
  	text-align: left;
  	background-color: #fff;
@@ -732,7 +743,7 @@ a:hover,a:focus{
 #accordion .panel-titlesb a{
  	display: block;
  	padding: 16px;
- 	font-size: 12px;
+ 	font-size: 14px;
  	font-weight: bold;
  	text-align: left;
  	background-color: #fff;
