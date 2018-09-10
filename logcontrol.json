@@ -1,5 +1,4 @@
     {
-      "id": 4,
       "name": "Log Control",
       "description": "Controls the log handling for the sensor data",
       "models": [
