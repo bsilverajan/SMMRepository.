@@ -1,0 +1,15 @@
+    {
+      "id": 4,
+      "name": "Log Control",
+      "description": "Controls the log handling for the sensor data",
+      "models": [
+        "LWM2M"
+      ],
+      "url": "Model_List/Log_Control/Log_Control_25011.xml",
+      "ifjson": "Model_List/Log_Control/Log_Control_25011.json",
+      "exampleus": "This object is used for controlling the EMM internal logging system using executable resources to start and stop the logging. Another resource is used for setting the log filename.",
+      "codeUrl":"/Model_List/Log_Control/log_control_object.c",
+      "codeUrlH":"/Model_List/Log_Control/log_control_object.h",
+      "codeName": "log_control_object.c",
+      "codeNameH":"log_control_object.h"
+    }
